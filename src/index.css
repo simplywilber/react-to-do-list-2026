@@ -148,7 +148,7 @@ form button:hover {
   gap: 8.5px;
   justify-content: center;
 }
-.options div p:last-of-type {
+.options span{
   color: #90ff59;
   cursor: pointer;
   justify-content: center;
