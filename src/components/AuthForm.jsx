@@ -91,8 +91,15 @@ export default function AuthForm({ setToken }) {
       </form>
 
       <div className="options">
-        <div><p>Already have an account?</p><span onClick={() => setIsLogin(true)}>Login</span></div>
-        <div><p>Don't have an account?</p><span onClick={() => setIsLogin(false)}>Register</span></div>
+        <p>Or</p>
+        <div>
+          <p>Already have an account?</p>
+          <span onClick={() => setIsLogin(true)}>Login</span>
+        </div>
+        <div>
+          <p>Don't have an account?</p>
+          <span onClick={() => setIsLogin(false)}>Register</span>
+        </div>
       </div>
     </div>
   );
